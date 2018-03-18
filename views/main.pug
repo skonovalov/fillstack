@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content
+	.container
+		h1 Barbers of the city
+		ul.list
+			each item in barbers
+				li
+					a(href=item.href)
+						.item__img
+							img(src=item.img)
+
+						.item__name= item.name
+						p= item.text

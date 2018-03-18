@@ -1,0 +1,26 @@
+doctype html
+html(lang="ru")
+
+	include ./partials/head
+
+	body
+		header.header
+			.container
+				.row
+					.logo
+						a(href="/") BARBERS
+
+					ul.auth
+						li
+							a Sign In
+							a Sign Up
+
+					ul.menu
+						li
+							a(href="/") Home
+
+		.content
+			block content
+
+		footer
+			.container &copy; 2018 Barber Shop
