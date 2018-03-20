@@ -1,3 +1,11 @@
+.footer {
+  font-size: 40px;
+  line-height: 48px;
+  color: #ccc;
+  background-color: #ccc;
+}
 header.header {
-  background-color: #f00;
+  font-size: 50px;
+  color: #000;
+  background-color: #fff;
 }
